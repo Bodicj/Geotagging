@@ -1,0 +1,15 @@
+html, body {
+	height: 100%;
+	margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+#map {
+	height: 90%;
+}
+label{
+    font: Arial, sans-serif;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Map My Photos</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="https://rawgit.com/mattiasw/ExifReader/master/js/ExifReader.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbYdRSX_XQ-p7xlVH9V2KiuXZq1FqQKIo"></script>
+	<script src="js/main.js"></script>
+		
+</head>
+<body>
+    <form>
+      <label for="file">
+        Choose a file from your computer or drop them on map<br />
+        <input type="file" id="file" name="file" accept="image/*,image/jpeg" multiple />
+      </label>
+    </form>
+    <div id="map"></div>
+</body>
+</html>
